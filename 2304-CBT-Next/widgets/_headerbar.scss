@@ -5,8 +5,13 @@
 
 @mixin headerbar() {
   headerbar {
-    padding: 4px 8px;
-    min-height: 34px;
+		zborder: 1px solid navy;
+    // padding: 4px 8px;
+    padding: 0px 0px;
+    min-height: 16px;
+    // min-height: 20px;
+	height: 20px;
+    // min-height: none;
     color: $titlebar_fg_color;
     background-color: $titlebar_bg_color;
     box-shadow: inset 2px 2px gtkshade($titlebar_bg_color, 1.4), inset -2px -2px gtkshade($titlebar_bg_color, 0.6);
@@ -44,8 +49,11 @@
     }
 
     .title {
-      padding-left: 12px;
-      padding-right: 12px;
+		zborder: 3px solid seagreen;
+		margin: 0px;
+		padding: 0px;
+      // padding-left: 12px;
+      // padding-right: 12px;
       font-weight: bold;
       color: $selected_fg_color;
       
@@ -54,8 +62,10 @@
 
     .subtitle {
       font-size: smaller;
-      padding-left: 12px;
-      padding-right: 12px;
+      // padding-left: 12px;
+      // padding-right: 12px;
+	  margin: 0px;
+	  padding: 0px;
       color: gtkalpha($selected_fg_color, 0.7);
       
       &:backdrop { color: gtkalpha($unfocused_fg_color, 0.7); }
@@ -63,25 +73,43 @@
 
     button {
       @include headerbar_buttons($headerbar_bg_color, $headerbar_fg_color, $borders);
+		zborder: 4px solid lavender;
+	margin: 0px;
+	padding: 0px;
+		height: 64px;
     }
 
-    entry { padding: 4px 8px; }
+    entry {
+			zborder: 5px solid orange;
+		// padding: 4px 8px;
+		margin: 0px;
+		padding: 0px;
+	}
     &.titlebar, .titlebar & { border-radius: $csd_radius $csd_radius 0px 0px; }
 
     .titlebutton {
       &.close, &.maximize, &.minimize, &:not(separator) {
         min-width: 19px;
         min-height: 19px;
+        // min-width: none;
+        // min-height: none;
+		margin: 0px;
+		padding: 0px;
         color: transparent;
         background: none;
         box-shadow: none;
         border: none;
-        padding: 0;
+        // padding: 0;
         border-radius: 0;
         -gtk-icon-shadow: none;
         
         background-position: center;
         background-repeat: no-repeat;
+		  zborder: 1px solid darkred;
+		// box-shadow: 2px 2px 0px black;
+		zborder-bottom: 2px solid #0000040;
+		zborder-right: 2px solid black;
+		box-shadow: inset 2px 2px 0px white;
       }
       
       &.close {

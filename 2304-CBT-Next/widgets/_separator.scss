@@ -11,7 +11,9 @@
     }
 
     button & {
-      margin: 4px 1px;
+      // margin: 4px 1px;
+      margin: 0px;
+		zborder: 2px dashed indigo;
     }
 
     .sidebar view &, view &, .separator, & {
@@ -38,6 +40,7 @@
       margin-bottom: 4px;
       background-color: gtkmix(gtkshade($bg_color, 0.7), $headerbar_bg_color, 0.5);
       box-shadow: none;
+		zborder: 2px dashed navy;
 
       &:backdrop {
         background-color: gtkshade($bg_color, 0.7);

@@ -1,5 +1,6 @@
+// CBT: thunar file list column headings
 @mixin normal_buttons($bg, $fg, $br) {
-  padding: 4px 8px;
+  // padding: 4px 8px;
   border-style: solid;
   border-width: 1px;
   border-radius: $button_radius;
@@ -12,6 +13,7 @@
   outline-color: $titlebar_bg_color;
   outline-offset: 2px;
   outline-style: solid;
+	zborder: 4px dashed yellow;
 
   &:hover {
   }
@@ -24,6 +26,7 @@
     border-right-color: gtkmix($bg, $light_shadow, 0.7);
     background-color: gtkshade($bg, 0.9);
     background-image: none;
+		zborder: 12px solid indigo;
 
     &:disabled {
       color: gtkmix($fg, $unfocused_disabled_fg_color, 0.1);
