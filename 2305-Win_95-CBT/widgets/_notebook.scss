@@ -4,11 +4,7 @@
 
     &.frame {
       margin: -1px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: $borders;
-      border-top-color: gtkmix($bg_color, $light_shadow, 0.7);
-      border-left-color: gtkmix($bg_color, $light_shadow, 0.7);
+      zborder: none;
 
       > header {
         margin: -1px;
@@ -53,7 +49,7 @@
     }
 
     tab {
-      padding: 6px 20px;
+      // padding: 6px 20px;
       border-width: 1px;
       border-style: solid;
       border-radius: $tab_radius;
