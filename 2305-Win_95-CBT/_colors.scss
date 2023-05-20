@@ -1,15 +1,17 @@
 // Normal colors
-$bg_color : #C0C0C0;
+// $bg_color : #b5b196;
+$bg_color : #ccc7b1;
 $fg_color : #000000;
-$base_color : #FFFFFF;
+$base_color : #FFF7E9;
 $text_color : #000000;
-$selected_bg_color : #000080;
+$selected_bg_color : #a57766;
+// $selected_bg_color : #deddda;
 $selected_fg_color : #FFFFFF;
-$selected_base_color : #000080;
+$selected_base_color : #000000;
 $selected_text_color : #FFFFFF;
 $disabled_bg_color : gtkmix($fg_color, $bg_color, 0.95);
 $disabled_fg_color : gtkmix($fg_color, $bg_color, 0.5);
-$disabled_base_color : gtkshade($base_color, 0.8);
+$disabled_base_color : $base_color;
 $disabled_text_color : $disabled_fg_color;
 
 // Backdrop state colors
