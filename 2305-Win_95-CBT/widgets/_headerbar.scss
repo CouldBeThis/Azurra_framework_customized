@@ -85,14 +85,17 @@
 		border-color: deeppink;
       }
       
-      &.close { background-image: url('assets/close.png'); }
-      &.minimize { background-image: url('assets/minimize.png');
+      // &.close { background-image: url('assets/close.png'); }
+      &.close { background-image: url('assets/maximize.png'); }
+      // &.minimize { background-image: url('assets/minimize.png');
+      &.minimize { background-image: url('assets/maximize.png');
 		zborder: 2px dashed maroon;
 		background-color: gold;
 		border-color: deeppink;
 	}
       &.maximize { background-image: url('assets/maximize.png'); }
-      .maximized &.maximize { background-image: url('assets/restore.png'); }
+      // .maximized &.maximize { background-image: url('assets/restore.png'); }
+      .maximized &.maximize { background-image: url('assets/maximize.png'); }
     }
     
     .horizontal.right .titlebutton.maximize {
