@@ -1,0 +1,225 @@
+// $titlebar_bg_color : black;
+
+zbutton,
+zbutton * {
+	border: 2px dashed magenta;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+zheaderbar * {
+		border: 3px dashed seagreen;
+		background-color: blue;
+    padding: 0px 0px;
+	margin: 0px;
+	height: 12px;
+    min-height: 10px;
+}
+zheaderbar {
+		border: 3px dotted navy;
+		background-color: blue;
+	opacity: 1.0;
+		// padding: 4px 8px;
+    padding: 0px 0px;
+	margin: 0px;
+	height: 12px;
+    min-height: 10px;
+    // min-height: 20px;
+	// height: 120px;
+ }
+
+znotebook *,
+znotebook {
+		border: 3px solid maroon;
+		// background-color: lightpink;
+}
+
+decoration {
+
+}
+
+
+
+
+
+
+headerbar entry,
+headerbar spinbutton,
+headerbar button,
+headerbar separator {
+    margin-top: 0px; /* same as headerbar side padding for nicer proportions */
+    margin-bottom: 0px;
+		border: 3px solid maroon;
+		background-color: lightpink;
+}
+
+headerbar {
+    min-height: 24px;
+    padding-left: 2px; /* same as childrens vertical margins for nicer proportions */
+    padding-right: 2px;
+    margin: 0px; /* same as headerbar side padding for nicer proportions */
+    padding: 0px;
+		border: 3px dotted navy;
+		background-color: blue;
+}
+
+#panel {
+	height: 22px;
+		border: 3px dotted violet;
+		background-color: lavenderblush;
+}
+
+
+
+
+
+
+
+
+
+zdecoration.ssd headerbar.titlebar {
+    min-height: 0;
+}
+
+zdecoration.ssd headerbar.titlebar button.titlebutton {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    min-height: 0;
+}
+
+
+zheaderbar,
+zheaderbar * {
+    min-height: 4px;
+height: 10px;
+max-height: 20px;
+    padding-left: 0px; /* same as childrens vertical margins for nicer proportions */
+    padding-right: 0px;
+    margin: 0px; /* same as headerbar side padding for nicer proportions */
+    padding: 0px;
+		border: 3px solid gold;
+		background-color: lightblue;
+}
+
+zheaderbar entry,
+zheaderbar spinbutton,
+zheaderbar button,
+zheaderbar separator {
+    margin-top: 0px; /* same as headerbar side padding for nicer proportions */
+    margin-bottom: 0px;
+		border: 3px solid maroon;
+		background-color: lightpink;
+}
+
+zheaderbar {
+    min-height: 24px;
+    padding-left: 2px; /* same as childrens vertical margins for nicer proportions */
+    padding-right: 2px;
+    margin: 0px; /* same as headerbar side padding for nicer proportions */
+    padding: 0px;
+		border: 3px dotted navy;
+		background-color: blue;
+}
+
+z#panel {
+	height: 22px;
+		border: 3px dotted violet;
+		background-color: lavenderblush;
+}
+
+// .windowhandle,
+// .windowhandle *,
+// .horizontal,
+// .horizontal *,
+// .vertical,
+// .vertical *,
+// .left,
+// .left *,
+// .right,
+// .right *,
+// .title,
+// .title *,
+// .titlebutton,
+// .titlebutton *,
+something {
+	border: 1px solid cyan;
+    min-height: 4px;
+    height: 4px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#panel,
+.titlebutton,
+.titlebutton *,
+.vbox,
+something {
+	border: 3px solid darkcyan;
+min-height: 40px;
+
+}
+
+
+window.ssd headerbar.titlebar {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    min-height: 0;
+	background-color: gold;
+}
+
+window.ssd headerbar.titlebar button.titlebutton {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    min-height: 0;
+	border: 3px solid magenta;
+	background-color: gold;
+}
+
+
+
+headerbar {
+    min-height: 138px;
+    padding-left: 112px; /* same as childrens vertical margins for nicer proportions */
+    padding-right: 112px;
+	border: 3px solid magenta;
+	background-color: grey;
+}
+
+headerbar entry,
+headerbar spinbutton,
+headerbar button,
+headerbar separator {
+    margin-top: 12px; /* same as headerbar side padding for nicer proportions */
+    margin-bottom: 2px;
+	border: 3px solid magenta;
+	background-color: brown;
+}
+
+/* shrink ssd titlebars */
+z.default-decoration {
+    min-height: 0; /* let the entry and button drive the titlebar size */
+    padding: 2px;
+	border: 3px solid magenta;
+	background-color: gold;
+}
+
+z.default-decoration .titlebutton {
+    min-height: 126px; /* tweak these two props to reduce button size */
+    min-width: 126px;
+	border: 3px solid magenta;
+	background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
