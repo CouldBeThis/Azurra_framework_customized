@@ -45,6 +45,11 @@
 		background-color: $disabled_fg_color;
         box-shadow: inset -1px 0 gtkshade($bg_color, 0.65), inset 0 -1px gtkshade($bg_color, 0.65), inset 1px 0 gtkmix($bg_color, $light_shadow, 0.7), inset 0 1px gtkmix($bg_color, $light_shadow, 0.7);
       }
+      //     TODO: disable animation on hover
+		slider:hover {
+			background-color: $accent2_bg_color;
+			color: $accent2_fg_color;
+		}
 
       button {
         min-height: 25px;
@@ -58,6 +63,13 @@
           background-image: url('assets/arrow-left.png');
         }
       }
+
+      //     TODO: figure out why a different icon shows up on hover ??
+		// button:hover {
+  //         background-image: url('assets/arrow-right.png');
+		// 	background-color: gold;
+		// 	color: $accent2_fg_color;
+		// }
     }
 
     &.vertical {
@@ -76,6 +88,11 @@
 		zborder: 2px dashed darkseagreen;
 		zbackground-color: deeppink;
       }
+      //     TODO: disable animation on hover
+		slider:hover {
+			background-color: $accent2_bg_color;
+			color: $accent2_fg_color;
+		}
 
       button {
         min-height: 25px;

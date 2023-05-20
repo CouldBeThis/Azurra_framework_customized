@@ -24,6 +24,8 @@ $disabled_text_color : $disabled_fg_color;
 ///// selection:
 $accent_bg_color : $cbt_grey;
 $accent_fg_color : $cbt_white;
+$accent2_bg_color : $cbt_blue_dark;
+$accent2_fg_color : $cbt_white;
 ///// mixes:
 $disabled_bg_color : gtkmix($accent_fg_color, $accent_bg_color, 0.95);
 $disabled_fg_color : gtkmix($accent_fg_color, $accent_bg_color, 0.5);

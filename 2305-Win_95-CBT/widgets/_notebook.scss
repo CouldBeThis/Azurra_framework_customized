@@ -79,6 +79,13 @@
       }
     }
 
+//     TODO: disable animation on hover
+     tab:hover {
+		// border: 4px dashed maroon;
+		background-color: $accent2_bg_color;
+		color: $accent2_fg_color;
+	 }
+
     > header {
       padding-top: 2px;
       background-color: $bg_color;
