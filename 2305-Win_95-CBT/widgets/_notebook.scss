@@ -50,19 +50,26 @@
 
     tab {
       padding: 6px 6px 0px 6px;
-      border-width: 1px;
-      border-style: solid;
+	  margin: 4px;
+      border-width: 2px;
+      // border-style: solid;
+      // border-style: inset;
+		border-style: outset;
       border-radius: $tab_radius;
       border-color: $borders;
+      // border-color: $selected_bg_color;
       color: $fg_color;
       background-color: $bg_color;
-		border: 2px dashed darkseagreen;
-		background-color: green;
+		zborder: 2px dashed darkseagreen;
+		zbackground-color: deeppink;
 
       &:checked {
+		border-style: outset;
         border-color: $borders;
-        border-radius: $tab_radius + 1px;
+        // border-color: $selected_bg_color;
+        // border-radius: $tab_radius + 1px;
         background-color: $bg_color;
+		zbackground-color: deeppink;
       }
     }
 
