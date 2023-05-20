@@ -33,8 +33,8 @@
 
     &.horizontal {
       slider {
-        min-width: 45px;
-        min-height: 14px;
+        min-width: 18px;
+        min-height: 18px;
         margin: 0;
         border: 1px solid $borders;
         border-top-color: gtkmix($bg_color, $light_shadow, 0.7);
@@ -46,8 +46,8 @@
       }
 
       button {
-        min-height: 28px;
-        min-width: 28px;
+        min-height: 25px;
+        min-width: 25px;
       
         &.down {
           background-image: url('assets/arrow-right.png');
@@ -61,8 +61,8 @@
 
     &.vertical {
       slider {
-        min-width: 14px;
-        min-height: 45px;
+        min-width: 18px;
+        min-height: 18px;
         margin: 0;
         border: 1px solid $borders;
         border-top-color: gtkmix($bg_color, $light_shadow, 0.7);
@@ -74,8 +74,8 @@
       }
 
       button {
-        min-height: 28px;
-        min-width: 28px;
+        min-height: 25px;
+        min-width: 25px;
 
         &.down {
           background-image: url('assets/arrow-down.png');
