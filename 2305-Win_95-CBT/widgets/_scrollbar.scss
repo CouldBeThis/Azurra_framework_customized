@@ -34,7 +34,7 @@
     &.horizontal {
       slider {
         min-width: 18px;
-        min-height: 18px;
+        min-height: 68px;
         margin: 0;
         border: 1px solid $borders;
         border-top-color: gtkmix($bg_color, $light_shadow, 0.7);
@@ -62,7 +62,7 @@
     &.vertical {
       slider {
         min-width: 18px;
-        min-height: 18px;
+        min-height: 68px;
         margin: 0;
         border: 1px solid $borders;
         border-top-color: gtkmix($bg_color, $light_shadow, 0.7);
