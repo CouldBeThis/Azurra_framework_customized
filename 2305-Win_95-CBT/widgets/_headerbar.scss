@@ -76,22 +76,20 @@
         background-position: center;
         background-repeat: no-repeat;
 		// CBT: somehow this color gets into the png images
-		color: skyblue;
+		color: $selected_bg_color;
     // background-color: $titlebar_bg_color;
     // background-color: $headerbar_bg_color;
 		zborder: 4px dashed slateblue;
 		zborder: 2px dashed maroon;
-		background-color: red;
-		border-color: deeppink;
+		// background-color: red;
+		// border-color: deeppink;
       }
       
-      // &.close { background-image: url('assets/close.png'); }
-      &.close { background-image: url('assets/maximize.png'); }
-      // &.minimize { background-image: url('assets/minimize.png');
-      &.minimize { background-image: url('assets/maximize.png');
+      &.close { background-image: url('assets/close.png'); }
+      &.minimize { background-image: url('assets/minimize.png');
 		zborder: 2px dashed maroon;
-		background-color: gold;
-		border-color: deeppink;
+		// background-color: gold;
+		// border-color: deeppink;
 	}
       &.maximize { background-image: url('assets/maximize.png'); }
       // .maximized &.maximize { background-image: url('assets/restore.png'); }
