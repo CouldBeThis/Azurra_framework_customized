@@ -67,6 +67,8 @@
     entry { padding: 4px 8px; }
     &.titlebar, .titlebar & { border-radius: $csd_radius $csd_radius 0px 0px; }
 
+
+
     .titlebutton {
       &.close, &.maximize, &.minimize, &:not(separator) {
         padding: 0;
@@ -83,6 +85,11 @@
 		zborder: 2px dashed maroon;
 		// background-color: red;
 		// border-color: deeppink;
+			zborder: 1px solid orangered;
+			 // min-height: 40px;
+			 // min-width: 40px;
+
+  -gtk-icon-transform: scale(1.5);
       }
       
       &.close { background-image: url('assets/close.png'); }

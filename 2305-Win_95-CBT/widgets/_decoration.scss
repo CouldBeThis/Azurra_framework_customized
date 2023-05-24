@@ -47,4 +47,39 @@
       box-shadow: none;
     }
   }
+		window decoration,
+		window headerbar {
+		border-color: #8f8b7c;
+		border-style: ridge;
+	}
+		window decoration {
+		border-width: 6px;
+	}
+
+		window headerbar {
+		border-width: 0px 0px 6px 0px;
+	}
+
+	/* CBT: make window action buttons larger */
+headerbar .horizontal button,
+zheaderbar button.titlebutton {
+	zborder: 3px solid blue;
+	background-color: skyblue;
+	background-image: none;
+	border: none;
+	background-size: 100%; //important
+	margin: 1 3px;
 }
+	headerbar button.titlebutton image,
+	zheaderbar button image  {
+		zborder: 3px solid gold;
+		opacity: 0; // prevents overlay of some of some other images in buttons
+	border: none;
+	margin: 1 3px;
+	padding: 10px; // creates the larger size of buttons
+	}
+}
+
+
+
+
