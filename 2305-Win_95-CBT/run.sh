@@ -60,9 +60,9 @@
 # 			echo -e "$u\eeCurrentUser$uo is $b$CurrentUser$bo"
 
 
-cd /home/_f/gh-cbt/Azurra_framework/
+cd /home/_f/gh-cbt/Azurra_framework_customized/
 
-/home/_f/gh-cbt/Azurra_framework/./autogen.sh 2305-Win_95-CBT
+/home/_f/gh-cbt/Azurra_framework_customized/./autogen.sh 2305-Win_95-CBT
 
 theme-reload-gtk
 
