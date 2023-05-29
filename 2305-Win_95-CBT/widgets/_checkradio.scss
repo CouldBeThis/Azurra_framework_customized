@@ -1,20 +1,20 @@
 // added the ext part for when we need selected (or dark) assets
 @mixin check($ext : "") {
-  -gtk-icon-source: gtkscale("assets/checkbox-unchecked" + $ext, ".png");
-  &:backdrop { -gtk-icon-source: gtkscale("assets/checkbox-unchecked-unfocused" + $ext, ".png"); }
-  &:disabled { -gtk-icon-source: gtkscale("assets/checkbox-unchecked-insensitive" + $ext, ".png");
-    &:backdrop { -gtk-icon-source: gtkscale("assets/checkbox-unchecked-insensitive-unfocused" + $ext, ".png"); }
+  -gtk-icon-source: gtkscale("assets/checkradio/checkbox-unchecked" + $ext, ".png");
+  &:backdrop { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-unchecked-unfocused" + $ext, ".png"); }
+  &:disabled { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-unchecked-insensitive" + $ext, ".png");
+    &:backdrop { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-unchecked-insensitive-unfocused" + $ext, ".png"); }
   }
-  &:active, &:checked { -gtk-icon-source: gtkscale("assets/checkbox-checked" + $ext, ".png");
-    &:backdrop { -gtk-icon-source: gtkscale("assets/checkbox-checked-unfocused" + $ext, ".png"); }
-    &:disabled { -gtk-icon-source: gtkscale("assets/checkbox-checked-insensitive" + $ext, ".png");
-      &:backdrop { -gtk-icon-source: gtkscale("assets/checkbox-checked-insensitive-unfocused" + $ext, ".png"); }
+  &:active, &:checked { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-checked" + $ext, ".png");
+    &:backdrop { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-checked-unfocused" + $ext, ".png"); }
+    &:disabled { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-checked-insensitive" + $ext, ".png");
+      &:backdrop { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-checked-insensitive-unfocused" + $ext, ".png"); }
     }
   }
-  &:indeterminate { -gtk-icon-source: gtkscale("assets/checkbox-mixed" + $ext, ".png");      
-    &:backdrop { -gtk-icon-source: gtkscale("assets/checkbox-mixed-unfocused" + $ext, ".png"); }
-    &:disabled { -gtk-icon-source: gtkscale("assets/checkbox-mixed-insensitive" + $ext, ".png");        
-      &:backdrop { -gtk-icon-source: gtkscale("assets/checkbox-mixed-insensitive-unfocused" + $ext, ".png"); }
+  &:indeterminate { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-mixed" + $ext, ".png");
+    &:backdrop { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-mixed-unfocused" + $ext, ".png"); }
+    &:disabled { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-mixed-insensitive" + $ext, ".png");
+      &:backdrop { -gtk-icon-source: gtkscale("assets/checkradio/checkbox-mixed-insensitive-unfocused" + $ext, ".png"); }
     }
   }
 }
