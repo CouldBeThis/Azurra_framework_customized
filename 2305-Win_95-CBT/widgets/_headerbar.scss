@@ -92,15 +92,15 @@
   -gtk-icon-transform: scale(1.5);
       }
       
-      &.close { background-image: url('assets/close.png'); }
-      &.minimize { background-image: url('assets/minimize.png');
+      &.close { background-image: url('assets/window/close.png'); }
+      &.minimize { background-image: url('assets/window/minimize.png');
 		zborder: 2px dashed maroon;
 		// background-color: gold;
 		// border-color: deeppink;
 	}
-      &.maximize { background-image: url('assets/maximize.png'); }
+      &.maximize { background-image: url('assets/window/maximize.png'); }
       // .maximized &.maximize { background-image: url('assets/restore.png'); }
-      .maximized &.maximize { background-image: url('assets/maximize.png'); }
+      .maximized &.maximize { background-image: url('assets/window/maximize.png'); }
     }
     
     .horizontal.right .titlebutton.maximize {
