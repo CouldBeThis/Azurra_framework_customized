@@ -114,47 +114,47 @@
       border-radius: 0;
       color: $selected_fg_color;
       background-color: transparent;
-      background-image: url('assets/slider-horiz.png');
+      background-image: url('assets/slider/slider-horiz.png');
 
       &:hover {
         color: $selected_fg_color;
-        background-image: url('assets/slider-horiz.png');
+        background-image: url('assets/slider/slider-horiz.png');
       }
 
       &:disabled {
         -gtk-icon-shadow: none;
-        background-image: url('assets/slider-horiz-insensitive.png');
+        background-image: url('assets/slider/slider-horiz-insensitive.png');
 
         &:backdrop {
           -gtk-icon-shadow: none;
-          background-image: url('assets/slider-horiz-insensitive.png');
+          background-image: url('assets/slider/slider-horiz-insensitive.png');
         }
       }
 
       &:backdrop {
         color: $unfocused_selected_fg_color;
-        background-image: url('assets/slider-horiz-insensitive.png');
+        background-image: url('assets/slider/slider-horiz-insensitive.png');
       }
     }
     
     &.horizontal.marks-before {
       slider {
-        background-image: url('assets/slider-horiz-top.png');
+        background-image: url('assets/slider/slider-horiz-top.png');
 
         &:hover {
-          background-image: url('assets/slider-horiz-top.png');
+          background-image: url('assets/slider/slider-horiz-top.png');
         }
 
         &:disabled {
-          background-image: url('assets/slider-horiz-top-insensitive.png');
+          background-image: url('assets/slider/slider-horiz-top-insensitive.png');
 
           &:backdrop {
-            background-image: url('assets/slider-horiz-top-insensitive.png');
+            background-image: url('assets/slider/slider-horiz-top-insensitive.png');
           }
         }
 
         &:backdrop {
-          background-image: url('assets/slider-horiz-top-insensitive.png');
+          background-image: url('assets/slider/slider-horiz-top-insensitive.png');
         }
       }
     }
@@ -166,42 +166,42 @@
         margin: 0;
         margin-left: -6px;
         margin-right: -10px;
-        background-image: url('assets/slider-vert.png');
+        background-image: url('assets/slider/slider-vert.png');
 
         &:hover {
-          background-image: url('assets/slider-vert.png');
+          background-image: url('assets/slider/slider-vert.png');
         }
 
         &:disabled {
-          background-image: url('assets/slider-vert-insensitive.png');
+          background-image: url('assets/slider/slider-vert-insensitive.png');
 
           &:backdrop {
-            background-image: url('assets/slider-vert-insensitive.png');
+            background-image: url('assets/slider/slider-vert-insensitive.png');
           }
         }
 
         &:backdrop {
-          background-image: url('assets/slider-vert-insensitive.png');
+          background-image: url('assets/slider/slider-vert-insensitive.png');
         }
       }
       
       &.marks-before {
-        background-image: url('assets/slider-vert-left.png');
+        background-image: url('assets/slider/slider-vert-left.png');
 
         &:hover {
-          background-image: url('assets/slider-vert-left.png');
+          background-image: url('assets/slider/slider-vert-left.png');
         }
 
         &:disabled {
-          background-image: url('assets/slider-vert-left-insensitive.png');
+          background-image: url('assets/slider/slider-vert-left-insensitive.png');
 
           &:backdrop {
-            background-image: url('assets/slider-vert-left-insensitive.png');
+            background-image: url('assets/slider/slider-vert-left-insensitive.png');
           }
         }
 
         &:backdrop {
-          background-image: url('assets/slider-vert-left-insensitive.png');
+          background-image: url('assets/slider/slider-vert-left-insensitive.png');
         }
       }
     }
